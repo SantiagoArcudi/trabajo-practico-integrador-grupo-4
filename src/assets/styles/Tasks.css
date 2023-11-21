@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin: 0;
+    position: relative;
+}
+
+ul {
+    padding-left: 0;
+}
+
+label {
+    color: #777;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+.proyect {
+    min-width: 275px;
+    max-width: 275px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+
+.date {
+    min-width: 225px;
+    max-width: 225px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+
+.spacing {
+    margin-right: auto;
+}
+
+#larger {
+    width: 350px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: auto;
+    margin-right: 20px;
+    height: 1.5em;
+}
+
+.borders {
+    border-left: 1px solid #ccc;
+}
+
+.button {
+    background: none;
+    border: none;
+    display: flex;
+    font-size: 24px;
+}
+
+.red:active {
+    color: red;
+}
+.blue:active {
+    color: rgb(41, 134, 165);
+}
+.green:active {
+    color: green;
+}
+#active {
+    color: green;
+}
+
+.color {
+    color: coral;
+}

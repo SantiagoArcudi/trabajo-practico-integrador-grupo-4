@@ -1,0 +1,27 @@
+header {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 2em;
+}
+
+/* 
+#addTask {
+    height: 2em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#dayNight {
+    height: 2em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+} */
