@@ -1,3 +1,4 @@
+/* Estiliza los 2 contenedores, el del form y de cada tarea*/
 .container {
     display: flex;
     border-bottom: 1px solid #ccc;
@@ -7,21 +8,18 @@
     margin: 0;
     position: relative;
 }
-
 ul {
     padding-left: 0;
 }
-
 label {
     color: #777;
     padding: 10px;
 }
-
 li {
     list-style: none;
     padding: 10px;
 }
-
+/*Le da espacio al imput y a los li del nombre del proyecto */
 .proyect {
     min-width: 275px;
     max-width: 275px;
@@ -29,7 +27,7 @@ li {
     white-space: nowrap;
     text-overflow: ellipsis; 
 }
-
+/*Le da espacio al imput y a los li de la fecha del proyecto */
 .date {
     min-width: 225px;
     max-width: 225px;
@@ -37,11 +35,11 @@ li {
     white-space: nowrap;
     text-overflow: ellipsis; 
 }
-
+/* clean espacios para la tarea */
 .spacing {
     margin-right: auto;
 }
-
+/*Agranda el input de la tarea*/
 #larger {
     width: 350px;
 }
@@ -54,18 +52,18 @@ input {
     margin-right: 20px;
     height: 1.5em;
 }
-
+/*Agrega bordes a los inputs y li*/
 .borders {
     border-left: 1px solid #ccc;
 }
-
+/*Estilos de los botones*/
 .button {
     background: none;
     border: none;
     display: flex;
     font-size: 24px;
 }
-
+/*Cambia el color de los botones al ser clickeados*/
 .red:active {
     color: red;
 }
@@ -78,7 +76,6 @@ input {
 #active {
     color: green;
 }
-
 .color {
     color: coral;
 }

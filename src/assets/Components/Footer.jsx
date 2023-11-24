@@ -1,10 +1,11 @@
 import React from "react";
 import '../styles/footer.css'
 
+//Crea el footer
 const Footer = () => {
     return (
         <footer>
-            <p>&copy;Hecho por: Santiago Arcudi</p>
+            <p>&copy;</p>
         </footer>
     )
 }
