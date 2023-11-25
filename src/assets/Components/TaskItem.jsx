@@ -18,7 +18,8 @@ const TaskItem = ({ task, date, name, deleteTask }) => {
             <li >
                 <button className="button spacing green"
                     onClick={() => setChangeItemIcon(!changeItemIcon)}
-                    id={(changeItemIcon ? 'active' : undefined)}
+                    id={(changeItemIcon ? 'active' : undefined)
+                }
                 >
                     {changeItemIcon ? <IoIosCheckmarkCircle /> : <IoIosCheckmarkCircleOutline />}
                 </button>

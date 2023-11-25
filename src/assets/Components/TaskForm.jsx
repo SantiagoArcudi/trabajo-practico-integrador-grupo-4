@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { IoIosAddCircleOutline, IoIosAddCircle } from "react-icons/io";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const TaskForm = ({ addTask }) => {
     const [changeIcon, setChangeIcon] = useState(false);
@@ -26,6 +28,12 @@ const TaskForm = ({ addTask }) => {
             projectName: "",
         });
     };
+
+    
+    const notify = () => {
+    toast ("Tarea añadida exitosamente ✔");
+    }   
+
 
     return (
         <form onSubmit={handleSubmit} className="container">
@@ -64,6 +72,7 @@ const TaskForm = ({ addTask }) => {
                     className="button blue"
                     onMouseEnter={() => setChangeIcon(true)}
                     onMouseLeave={() => setChangeIcon(false)}
+                    onClick={notify}
                 >
                     {changeIcon ? <IoIosAddCircle /> : <IoIosAddCircleOutline />}
                 </button>
