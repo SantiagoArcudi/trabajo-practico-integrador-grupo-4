@@ -14,6 +14,7 @@ ul {
 label {
     color: #777;
     padding: 10px;
+    font-family: 'Poppins';
 }
 li {
     list-style: none;

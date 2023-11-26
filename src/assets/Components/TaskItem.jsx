@@ -23,6 +23,8 @@ const TaskItem = ({ task, date, name, deleteTask }) => {
                 <button className="button spacing green"
                     //Controla el evento del click
                     onClick={() => setChangeItemIcon(!changeItemIcon)}
+                    id={(changeItemIcon ? 'active' : undefined)
+                }
                     //Agrega estilo active al clickear
                     id={(changeItemIcon ? 'active' : undefined)}
                 //Cambia el icono segun el parametro anterior
