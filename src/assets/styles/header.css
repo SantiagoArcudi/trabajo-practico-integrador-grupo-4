@@ -2,10 +2,20 @@ header {
     border-bottom: 1px solid #ccc;
     padding: 0;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 header h2 {
     font-size: 2em;
+  
+    
+}
+
+figure img {
+    width: 100px;
+   
+    
 }
 
 /* 
