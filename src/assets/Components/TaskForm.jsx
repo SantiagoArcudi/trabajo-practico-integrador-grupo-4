@@ -87,6 +87,7 @@ const TaskForm = ({ addTask }) => {
                     //controla cuando el mouse pasa por encima del button
                     onMouseEnter={() => setChangeIcon(true)}
                     onMouseLeave={() => setChangeIcon(false)}
+                    onClick={notify}
                 //Cambia el icono segun el parametro anterior
                 >
                     {changeIcon ? <IoIosAddCircle /> : <IoIosAddCircleOutline />}

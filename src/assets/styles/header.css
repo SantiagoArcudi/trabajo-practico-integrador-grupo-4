@@ -1,13 +1,27 @@
 header {
     border-bottom: 1px solid #ccc;
     padding: 0;
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: center;
+=======
+    text-align: center;
+    display: flex;
+    align-items: center;
+>>>>>>> 88457e3be6249d9bd40fc2a63e03d9fb7ea41fcc
 }
 
 header h2 {
     font-size: 2em;
+  
+    
+}
+
+figure img {
+    width: 100px;
+   
+    
 }
 
 figure img {
