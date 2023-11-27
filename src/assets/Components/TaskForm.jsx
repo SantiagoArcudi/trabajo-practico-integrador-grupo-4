@@ -34,13 +34,9 @@ const TaskForm = ({ addTask }) => {
         });
         notify();
     };
-
-    
     const notify = () => {
     toast ("Tarea añadida exitosamente ✔");
     }   
-
-
     return (
         <form onSubmit={handleSubmit} className="container">
             <label className="spacing">Tarea:
@@ -87,7 +83,6 @@ const TaskForm = ({ addTask }) => {
                     //controla cuando el mouse pasa por encima del button
                     onMouseEnter={() => setChangeIcon(true)}
                     onMouseLeave={() => setChangeIcon(false)}
-                    onClick={notify}
                 //Cambia el icono segun el parametro anterior
                 >
                     {changeIcon ? <IoIosAddCircle /> : <IoIosAddCircleOutline />}
