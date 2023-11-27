@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { IoIosAddCircleOutline, IoIosAddCircle } from "react-icons/io";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const TaskForm = ({ addTask }) => {
     //Constrola el estado booleano del icono añadir
@@ -30,7 +32,14 @@ const TaskForm = ({ addTask }) => {
             date: "",
             projectName: "",
         });
+        notify();
     };
+
+    
+    const notify = () => {
+    toast ("Tarea añadida exitosamente ✔");
+    }   
+
 
     return (
         <form onSubmit={handleSubmit} className="container">
